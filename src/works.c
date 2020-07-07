@@ -26,7 +26,7 @@ int main(){
   }
 
   lb = 0;
-  ub = 1e4;
+  ub = 1e9;
   while (ub - lb > 1){
     int mid = (lb + ub) / 2;
     if(p(A, mid, k, n)) ub = mid;
